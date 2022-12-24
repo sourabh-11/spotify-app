@@ -16,7 +16,7 @@ let songs = [
         {songName: " desi girl   ", filePath: "song/6.mp3", coverPath: "./img/6.jpg"},
         {songName: " honety new song", filePath: "song/7.mp3", coverPath: "./img/7.jpg"},
         {songName: " besarm rang by bhtan", filePath: "song/8.mp3", coverPath: "./img/8.jpg"},
-
+        {songName: " besarm rang by bhtan", filePath: "song/9.mp3", coverPath: "./img/9.jpg"},
 ]
 songItem.forEach((element,i) => {
     console.log(element,i);
@@ -24,7 +24,7 @@ songItem.forEach((element,i) => {
 });
 
 
-// audiElement.play();
+audiElement.play();
 
 
 
